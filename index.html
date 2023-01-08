@@ -12,7 +12,8 @@
     <div class="content">
         <div class="content__left-side">
             <header>
-                <div class="content-header__logo"><img src="images\logo.png" alt=""></div>
+                <div class="content-header__logo">
+                    <img class="content-header__logo__img" src="images\logo.png" alt=""></div>
                 <div class="content-header__title">Travelizer</div>
             </header>
             <main>
@@ -29,7 +30,10 @@
                     </div>
                     <div class="check-container">
                         <div class="check-container__box">
-                            <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+                            <label class="checkmark-container" for="rememberMe">
+                                <input type="checkbox" value="lsRememberMe" id="rememberMe">
+                                <span class="checkmark"></span>
+                                Remember me</label>
                         </div>
                         <a class="password-help" href="#">Forgot Password?</a>
                     </div>
@@ -53,7 +57,9 @@
             </footer>
         </div> 
         <div class="content__right-side">
-            <img class="bg-image" src="images\bg.png" alt="">
+            <div class="right-side-bg">
+<img class="right-side-img" src="images\bg.png" alt="">
+            </div>
         </div>
     </div>
 </body>
