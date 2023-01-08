@@ -1,0 +1,150 @@
+body,
+html {
+    height: 100vh;
+}
+body {
+    font-family: 'Inter';
+    margin: 0; 
+    color: #355B3E;
+}
+.content {
+    display: grid;
+    grid-template-columns: 550px 1fr;
+
+
+}
+.content__left-side {
+   padding-left: 64px;
+   padding-top: 40px;
+   padding-right: 64px;
+}
+
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.content-header__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    color: #355B3E;
+}
+
+.main__desc {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    margin-top: 56px;
+    margin-bottom: 16px;
+}
+
+.main__alert {
+    margin-bottom: 32px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.main__login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.email,
+.password {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.email-container,
+.password-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.email-container > input,
+.password-container > input {
+    width: 520px;
+    height: 56px;
+    border-radius: 4px;
+    border: solid 1px #B8D6BF;
+}
+
+.check-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.password-help {
+    color: #355B3E;
+
+}
+
+.login-form__btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button__login,
+.button__sign {
+    width: 199px;
+    height: 48px;
+    border: solid 1px #029664;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+}
+
+.button__login {
+    color: white;
+    background-color: #029664;
+}
+
+.button__sign {
+    color: #029664;
+    background-color: white;
+}
+
+.content__right-side {
+    background-color: #F5DBC4;
+    height: 100%;
+    width: 100%
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-image {
+    object-fit: contain;
+    height: 100vh;
+    
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer__info a {
+    text-decoration: none;
+    color: #355B3E;
+    font-weight: 600;
+}
